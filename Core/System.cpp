@@ -323,7 +323,7 @@ CoreParameter &PSP_CoreParameter() {
 
 
 void GetSysDirectories(std::string &memstickpath, std::string &flash0path) {
-#ifdef _WIN32
+#if defined(_WIN32) && !defined(_XBOX)
 	char path_buffer[_MAX_PATH], drive[_MAX_DRIVE] ,dir[_MAX_DIR], file[_MAX_FNAME], ext[_MAX_EXT];
 	char memstickpath_buf[_MAX_PATH];
 	char flash0path_buf[_MAX_PATH];
