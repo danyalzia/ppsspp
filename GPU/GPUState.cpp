@@ -21,7 +21,6 @@
 #include "GPU/GLES/ShaderManager.h"
 #include "GPU/GLES/GLES_GPU.h"
 #endif
-#ifdef USE_DIRECTX
 #include "GPU/Null/NullGpu.h"
 #include "GPU/Software/SoftGpu.h"
 #ifdef USE_DIRECTX
@@ -45,7 +44,7 @@ void GPU_Init() {
 		gpu = new GLES_GPU();
 		break;
 #endif
-#if !defined(__SYMBIAN32__) || !defined(_XBOX)
+#if !defined(__SYMBIAN32__) && !defined(_XBOX)
 	case GPU_SOFTWARE:
 		gpu = new SoftGPU();
 		break;
