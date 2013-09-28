@@ -1209,7 +1209,12 @@ namespace MainWindow
 				case ID_TEXTURESCALING_2X:  setTexScalingMultiplier(TEXSCALING_2X); break;
 				case ID_TEXTURESCALING_3X:  setTexScalingMultiplier(TEXSCALING_3X); break;
 				case ID_TEXTURESCALING_4X:  setTexScalingMultiplier(TEXSCALING_4X); break;
-				case ID_TEXTURESCALING_5X:  setTexScalingMultiplier(TEXSCALING_MAX); break;
+				case ID_TEXTURESCALING_5X:  setTexScalingMultiplier(TEXSCALING_5X); break;
+				case ID_TEXTURESCALING_6X:  setTexScalingMultiplier(TEXSCALING_6X); break;
+				case ID_TEXTURESCALING_7X:  setTexScalingMultiplier(TEXSCALING_7X); break;
+				case ID_TEXTURESCALING_8X:  setTexScalingMultiplier(TEXSCALING_8X); break;
+				case ID_TEXTURESCALING_9X:  setTexScalingMultiplier(TEXSCALING_9X); break;
+				case ID_TEXTURESCALING_10X:  setTexScalingMultiplier(TEXSCALING_MAX); break;
 
 				case ID_TEXTURESCALING_XBRZ:            setTexScalingType(TextureScaler::XBRZ); break;
 				case ID_TEXTURESCALING_HYBRID:          setTexScalingType(TextureScaler::HYBRID); break;
@@ -1637,6 +1642,11 @@ namespace MainWindow
 			ID_TEXTURESCALING_3X,
 			ID_TEXTURESCALING_4X,
 			ID_TEXTURESCALING_5X,
+			ID_TEXTURESCALING_6X,
+			ID_TEXTURESCALING_7X,
+			ID_TEXTURESCALING_8X,
+			ID_TEXTURESCALING_9X,
+			ID_TEXTURESCALING_10X,
 		};
 		if(g_Config.iTexScalingLevel < TEXSCALING_OFF)
 			g_Config.iTexScalingLevel = TEXSCALING_OFF;
