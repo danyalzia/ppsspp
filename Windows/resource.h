@@ -265,6 +265,11 @@
 #define IDC_GEDBG_CURRENTDISPLAYLIST     40120
 #define IDC_GEDBG_TEX                    40121
 #define IDC_GEDBG_STEP                   40122
+#define ID_TEXTURESCALING_6X			 40123
+#define ID_TEXTURESCALING_7X			 40124
+#define ID_TEXTURESCALING_8X			 40125
+#define ID_TEXTURESCALING_9X			 40126
+#define ID_TEXTURESCALING_10X			 40127
 
 // Dummy option to let the buffered rendering hotkey cycle through all the options.
 #define ID_OPTIONS_BUFFEREDRENDERINGDUMMY 40500
