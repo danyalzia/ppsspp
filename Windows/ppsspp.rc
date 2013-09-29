@@ -434,7 +434,12 @@ BEGIN
             MENUITEM "&2x",                             ID_TEXTURESCALING_2X
             MENUITEM "&3x",                             ID_TEXTURESCALING_3X
             MENUITEM "&4x",                             ID_TEXTURESCALING_4X
-            MENUITEM "&5x",	                            ID_TEXTURESCALING_5X
+            MENUITEM "&5x",	                           ID_TEXTURESCALING_5X
+            MENUITEM "&6x",	                           ID_TEXTURESCALING_6X
+            MENUITEM "&7x",	                           ID_TEXTURESCALING_7X
+            MENUITEM "&8x",	                           ID_TEXTURESCALING_8X
+            MENUITEM "&9x",	                           ID_TEXTURESCALING_9X
+            MENUITEM "&10x",	                          ID_TEXTURESCALING_10X
             MENUITEM SEPARATOR
             MENUITEM "xBRZ",                            ID_TEXTURESCALING_XBRZ
             MENUITEM "Hybrid",                          ID_TEXTURESCALING_HYBRID
