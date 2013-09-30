@@ -272,6 +272,7 @@
 #define ID_OPTIONS_FXAA                  40126
 #define IDC_DEBUG_BOTTOMTABS             40127
 #define ID_DEBUG_HIDEBOTTOMTABS          40128
+#define ID_TEXTURESCALING_AUTO           40129
 
 // Dummy option to let the buffered rendering hotkey cycle through all the options.
 #define ID_OPTIONS_BUFFEREDRENDERINGDUMMY 40500
