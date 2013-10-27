@@ -9,17 +9,16 @@ uniform sampler2D sampler0;
 varying vec2 v_texcoord0;
 
 float offset = 1.0;
-float frequency = 166.0;
+float frequency = 170.0;
 
 void main()
 {
   float pos0 = (v_texcoord0.y + offset) * frequency;
-  float pos1 = cos((fract( pos0 ) - 0.5)*3.1415926);
+  float pos1 = cos((fract( pos0 ) - 0.5)*3.1415926/1.5);
   vec4 pel = texture2D( sampler0, v_texcoord0 );
   
   // slight contrast curve
   vec4 color = pel*0.5+0.5*pel*pel*1.2;
-  color *= 2.0;
   
   // color tint
   color *= vec4(0.9,1.0,0.7, 0.0);
